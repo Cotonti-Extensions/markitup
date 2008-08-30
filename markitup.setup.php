@@ -25,6 +25,10 @@ Auth_members=RW
 Lock_members=12345A
 [END_SED_EXTPLUGIN]
 
+[BEGIN_SED_EXTPLUGIN_CONFIG]
+autorefresh=01:radio::0:Enable preview auto-refresh
+chili=10:radio::0:Enable Chili tags
+[END_SED_EXTPLUGIN_CONFIG]
 ==================== */
 
 if (!defined('SED_CODE')) { die('Wrong URL.'); }
